@@ -1,0 +1,9 @@
+dotnet new sln 
+
+dotnet new mvc -o MyApp
+
+dotnet sln add ./MyApp/MyApp.csproj
+
+cd MyApp
+
+dotnet add package MySql.data
